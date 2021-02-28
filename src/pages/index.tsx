@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/Head';
 import { GetServerSideProps } from 'next'
 
 import { CompletedChallanges } from '../components/CompletedChallange';
