@@ -59,11 +59,11 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
 
     function levelUp(){
       setLevel(level + 1)
-      setIsLevelUpModalOpen(true)
+      setIsLevelUpModalOpen(true);
     }
 
     function closeLevelUpModal(){
-        setIsLevelUpModalOpen(false)
+        setIsLevelUpModalOpen(false);
     }
 
     function startNewChallenge(){
@@ -115,7 +115,7 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
                 activeChallenge,
                 resetChallenge,
                 completeChallenge,
-                closeLevelUpModal
+                closeLevelUpModal,
                 }}
         >
 
