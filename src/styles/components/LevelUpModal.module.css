@@ -29,7 +29,7 @@
     background-size: contain;
 }
 
-.container strong{
+.container strong:first-child{
     font-size: 2.25rem;
     color: var(--title);   
 }
@@ -47,4 +47,24 @@
     background: transparent;
     border: 0;
     font-size: 0;
+}
+
+.containerShare{
+    display: flex;
+
+}
+
+.container strong:first-child.share{
+    font-size: 1.5rem;
+    color: var(--blue-twitter);
+    display: flex;
+    margin-top: 5rem; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container strong:first-child.share img{
+    font-size: 1.5rem;
+    margin-left: 0.2rem;
 }

@@ -13,6 +13,11 @@ export function LevelUpModal(){
                 <strong>Parabéns</strong>
                 <p>Você alcançou um novo level</p>
 
+                <div className={styles.containerShare}>
+                    <strong className={styles.share}>Compartilhar no Twitter
+                        <img src="icons/twitter.svg" alt="Twitter" />
+                    </strong>
+                </div>
                 <button type="button" onClick={closeLevelUpModal}>
                     <img src="/icons/close.svg" alt="Fechar modal" />
                 </button>
